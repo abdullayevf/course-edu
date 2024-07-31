@@ -1,0 +1,21 @@
+.line:before {
+	content: '';
+	width: 50px;
+	height: 2px;
+	background-color: #e74040;
+	position: absolute;
+	display: block;
+}
+
+.home-cards-card:hover .card-divider .line:before {
+	background-color: white;
+}
+
+.product-right .line:before {
+	width: 94px;
+	height: 7px;
+}
+
+.nav-col {
+	max-width: 260px;
+}
